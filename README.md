@@ -39,8 +39,6 @@ class BankLoan(models.Model):
 class BankLoanAdmin(admin.ModelAdmin):
  list_display=('Bln','name','Loanamount','address','age','phoneno')
 
-```
-```
 
 admin.py
 
